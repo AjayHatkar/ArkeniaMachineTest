@@ -1,0 +1,19 @@
+<mat-card>
+    <h2 class="header">
+        Progress
+    </h2>
+    <hr>
+    <div class="progressBar">
+        <mat-progress-bar mode="determinate" [style.background-color]="color" value="40"></mat-progress-bar>
+    </div>
+    <div class="graphData">
+        <div class="female">
+            <h3>Female Users :{{femaleCount}} </h3>
+            <!-- {{}} -->
+        </div>
+        <div class="male">
+            <h3>Male Users : {{maleCount}} </h3>
+            <!-- {{}} -->
+        </div>
+    </div>
+</mat-card>
